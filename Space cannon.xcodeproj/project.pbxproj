@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		73379BC91AFC9B9300BEB482 /* GameScore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73379BC81AFC9B9300BEB482 /* GameScore.swift */; };
+		73379BFD1AFD49B100BEB482 /* HaloBomb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 73379BFC1AFD49B100BEB482 /* HaloBomb@2x.png */; };
 		733975B91AF3DA770051F21A /* Ammo0@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 733975AD1AF3DA770051F21A /* Ammo0@2x.png */; };
 		733975BA1AF3DA770051F21A /* Ammo1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 733975AE1AF3DA770051F21A /* Ammo1@2x.png */; };
 		733975BB1AF3DA770051F21A /* Ammo2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 733975AF1AF3DA770051F21A /* Ammo2@2x.png */; };
@@ -38,7 +39,6 @@
 		733976251AF7E89A0051F21A /* BallTrail.sks in Resources */ = {isa = PBXBuildFile; fileRef = 733976241AF7E89A0051F21A /* BallTrail.sks */; };
 		733976291AF7ED230051F21A /* GameBall.swift in Sources */ = {isa = PBXBuildFile; fileRef = 733976281AF7ED230051F21A /* GameBall.swift */; };
 		7339762B1AF8061A0051F21A /* HaloX@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7339762A1AF8061A0051F21A /* HaloX@2x.png */; };
-		7339762D1AF810890051F21A /* HaloBomb@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7339762C1AF810890051F21A /* HaloBomb@2x.png */; };
 		733976301AF9FC4E0051F21A /* GreenCannon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7339762E1AF9FC4E0051F21A /* GreenCannon@2x.png */; };
 		733976311AF9FC4E0051F21A /* MultiShotPowerUp@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7339762F1AF9FC4E0051F21A /* MultiShotPowerUp@2x.png */; };
 		7362745A1AF3D0B4008BEA32 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 736274591AF3D0B4008BEA32 /* AppDelegate.swift */; };
@@ -63,6 +63,7 @@
 
 /* Begin PBXFileReference section */
 		73379BC81AFC9B9300BEB482 /* GameScore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameScore.swift; sourceTree = "<group>"; };
+		73379BFC1AFD49B100BEB482 /* HaloBomb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HaloBomb@2x.png"; sourceTree = "<group>"; };
 		733975AD1AF3DA770051F21A /* Ammo0@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ammo0@2x.png"; sourceTree = "<group>"; };
 		733975AE1AF3DA770051F21A /* Ammo1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ammo1@2x.png"; sourceTree = "<group>"; };
 		733975AF1AF3DA770051F21A /* Ammo2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Ammo2@2x.png"; sourceTree = "<group>"; };
@@ -93,7 +94,6 @@
 		733976241AF7E89A0051F21A /* BallTrail.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = BallTrail.sks; sourceTree = "<group>"; };
 		733976281AF7ED230051F21A /* GameBall.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GameBall.swift; sourceTree = "<group>"; };
 		7339762A1AF8061A0051F21A /* HaloX@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "HaloX@2x.png"; sourceTree = "<group>"; };
-		7339762C1AF810890051F21A /* HaloBomb@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "HaloBomb@2x.png"; path = "../HaloBomb@2x.png"; sourceTree = "<group>"; };
 		7339762E1AF9FC4E0051F21A /* GreenCannon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "GreenCannon@2x.png"; sourceTree = "<group>"; };
 		7339762F1AF9FC4E0051F21A /* MultiShotPowerUp@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "MultiShotPowerUp@2x.png"; sourceTree = "<group>"; };
 		736274541AF3D0B4008BEA32 /* Space cannon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Space cannon.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -132,7 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				7339762A1AF8061A0051F21A /* HaloX@2x.png */,
-				7339762C1AF810890051F21A /* HaloBomb@2x.png */,
+				73379BFC1AFD49B100BEB482 /* HaloBomb@2x.png */,
 				7339761C1AF6852D0051F21A /* PlayButton@2x.png */,
 				7339761D1AF6852D0051F21A /* ScoreBoard@2x.png */,
 				7339761E1AF6852D0051F21A /* Title@2x.png */,
@@ -336,13 +336,13 @@
 				733976191AF67ED20051F21A /* Zap.caf in Resources */,
 				7362745C1AF3D0B4008BEA32 /* GameScene.sks in Resources */,
 				733976091AF4B6EC0051F21A /* HaloExplosion.sks in Resources */,
+				73379BFD1AFD49B100BEB482 /* HaloBomb@2x.png in Resources */,
 				733976211AF6852D0051F21A /* Title@2x.png in Resources */,
 				736274631AF3D0B4008BEA32 /* Main.storyboard in Resources */,
 				733975C41AF3DA770051F21A /* Starfield@2x.png in Resources */,
 				733975BC1AF3DA770051F21A /* Ammo3@2x.png in Resources */,
 				733975C31AF3DA770051F21A /* Halo@2x.png in Resources */,
 				7339760C1AF65E600051F21A /* LifeBarExplosion.sks in Resources */,
-				7339762D1AF810890051F21A /* HaloBomb@2x.png in Resources */,
 				7339762B1AF8061A0051F21A /* HaloX@2x.png in Resources */,
 				733976251AF7E89A0051F21A /* BallTrail.sks in Resources */,
 				733975BB1AF3DA770051F21A /* Ammo2@2x.png in Resources */,
